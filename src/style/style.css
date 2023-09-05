@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f2f2;
+    color: #959494;
+    padding: 15px 40px 15px 40px;
+    font-size: smaller;
+  }
+  .leftNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .leftNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+  }
+
+  .leftNav li {
+    margin-right: 20px;
+  }
+
+  .rightNav {
+    display: flex;
+    align-items: center;
+  }
+
+  .searchButton {
+    padding: 5px;
+    border: none;
+    background: none;
+    background-color: none !important;
+    border-radius: 5px;
+    color: #959494;
+  }
+
+  .form-select {
+    padding: 5px;
+    border: none;
+    background: none;
+    background-color: none !important;  
+    border-radius: 5px;
+    margin-left: 10px; 
+  }
+
+  span {
+    margin-left: 10px; 
+  }
+  button {
+    background-color: none;
+    color: #0056c1;
+    border: 1px solid #0056c1;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .phone{
+    margin-right: 5px;
+      color: #959494;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0px 40px 0px 40px;
+    background-color: #fff;
+    color: #959494;
+  }
+
+  searchIcon {
+    margin-right: 15px;
+  }
+
+  .container div {
+    display: flex; 
+    align-items: center; 
+  }
+
+  .imgTag {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+  }
+
+  .container a {
+    text-decoration: none;
+    color: #959494;
+    margin: 0 10px;
+  }
+
+  .secondBtn {
+    color: #007bff; 
+    background: none;
+    background-color: none !important;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .circle{
+    font-size: 20px;
+    margin-right: 7px;
+  }
+
+  .secondContainer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 15px 40px 5px 40px;
+    color: #959494;
+    border: 1px solid #f5f2f2;
+    width: auto;
+    height: 65px;
+    text-align: center;
+}
+
+.secondContainer li {
+    margin-right: 25px;
+    
+}
+
+
